@@ -1,12 +1,12 @@
-*****************************************************************************************************************************************************
 Proyecto de sistemas embebidos. (Temas Selectos III)
+===================================================
 
 Control de velocidad de un motor de DC de imanes permanentes utilizando BeagleBone.
 
 NOTA: La integral se debe de ajustar correctamente, se deben revisar a detalle los limites máximo y minimo de la misma y actualizar el programa.
-*****************************************************************************************************************************************************
 
-El control funciona de la siguiente manera:
+Función del control:
+--------------------
 
 Cuando inicializa, lee el valor de un potenciometro para establecer el set point del motor. (Potenciometro conectado a P9_33)
 El valor del set point, se va mostrando en pantalla, por lo que se puede cambiar variando el potenciometro.
